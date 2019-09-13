@@ -1,0 +1,13 @@
+{
+	// 必要な拡張機能
+	// ESLint  (JavaScriptのLinter これからprettierを実行してフォーマットする
+
+	// JavaScript関連
+	// 必要なnpmモジュールは下記コマンドで1度インストールしておく
+	// npm install -g eslint@5 eslint-config-prettier eslint-plugin-prettier prettier
+	// eslint-config-prettier Prettierとバッティングする、ESLintのフォーマット関係のルールを無効化する
+	// eslint-plugin-prettier PrettierをESLint上で実行する
+	// 拡張:ESLint
+	"eslint.autoFixOnSave": true, // eslintの整形を保存時に実行する設定
+	"javascript.validate.enable": false, // eslintを使うので内蔵の機能を無効化
+}
