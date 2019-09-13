@@ -19,8 +19,6 @@
 		"no-unused-labels": "off"
 	},
 	"globals": {
-		"$": false, // falseにすると書き込み禁止（読み取り専用）
-		"javascript:": false,
-		"javascript": false
+		"$": false // falseにすると書き込み禁止（読み取り専用）
 	}
 }
